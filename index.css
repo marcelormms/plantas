@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfdfa;
+  color: #1a241e;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+/* Beautiful custom smooth styles */
+.leaf-pattern {
+  background-image: radial-gradient(#d1fae5 1px, transparent 1px), radial-gradient(#d1fae5 1px, #fcfdfa 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
