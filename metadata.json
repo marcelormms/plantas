@@ -1,0 +1,6 @@
+{
+  "name": "Diagnóstico de Plantas IA",
+  "description": "Análise fitossanitária e identificação inteligente de doenças em plantas a partir de fotos das folhas.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
